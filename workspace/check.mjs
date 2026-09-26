@@ -1,4 +1,3 @@
-process.exit(1);
 import { existsSync, readFileSync } from 'node:fs';
 
 const step = process.argv[2];
