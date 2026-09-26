@@ -1,0 +1,81 @@
+{
+  "_forgeProvenance": {
+    "forgeScaffoldVersion": "1.0.0",
+    "generatedAt": "2026-09-26T00:34:12.661+00:00",
+    "runId": "62d188e9-38c4-4242-9de7-448582fa57a8",
+    "assetId": "c55bb56f-4549-4c85-b60d-fe52a9170174",
+    "packageId": "08cfc40f-481c-4b9a-a8ac-d1a4cda9e4a4",
+    "packageStatus": "generated",
+    "architectureRecommendationId": "a2d52ae2-9deb-45c5-9530-9cb3b7a0490c",
+    "blueprintChecksum": "b606610c2ceab666ce3ecfa7527a078a9f32750caee71135832326e38a2d39db",
+    "approach": "rag",
+    "providerFamily": "azure_ai",
+    "providerAssessmentId": "d3f9c4b1-db4d-4f6e-b2e3-8f7bc43ddb1c",
+    "specificationRefs": [
+      {
+        "specificationType": "agent_specification",
+        "id": "856e302e-f9a6-4787-a4f3-a4e9f3f0f873",
+        "version": 1,
+        "checksumSha256": "65610909f13d7ddcca475ed45ffcf6871a163d8d2051f37d1546735af8b741a1"
+      },
+      {
+        "specificationType": "evaluation_specification",
+        "id": "b784fe3b-da8b-47f9-94d1-87fd4b3f4820",
+        "version": 1,
+        "checksumSha256": "15d6275c22cb20d3a19d2b7abb53289e82058ac20a9fae8f21ce3f77bc2c65bf"
+      },
+      {
+        "specificationType": "knowledge_specification",
+        "id": "d1c3925a-f072-446c-a19f-2c2014271f60",
+        "version": 1,
+        "checksumSha256": "e2bdfc1f93cfae03748836d9f1dd60ddce6140d1e3671be174113cc5dcbaa5a1"
+      },
+      {
+        "specificationType": "model_specification",
+        "id": "463a47f7-a7dc-4297-963b-df2b063b1fa4",
+        "version": 1,
+        "checksumSha256": "eeefff20075bf4ef227bf57c27390f4b5f1bacb4ecb4439d63420f2ae9e45090"
+      },
+      {
+        "specificationType": "prompt_specification",
+        "id": "75639030-54c3-43ec-a3a8-e9323bb31581",
+        "version": 1,
+        "checksumSha256": "5bab7c1ae094c8a969aeb00dd81b8e2c408809a6e24bdf181b34c7b75c6e569c"
+      },
+      {
+        "specificationType": "retrieval_specification",
+        "id": "5afd95de-35a3-4e31-b38a-a87a7dec0b58",
+        "version": 1,
+        "checksumSha256": "7aed269ea753db0844651177f9ba3557e463b18d0d70c1233b4938922e4b9b92"
+      },
+      {
+        "specificationType": "runtime_specification",
+        "id": "118ef100-3ce6-4ff2-bb89-7515ccd4418f",
+        "version": 1,
+        "checksumSha256": "b8cbacbc9aad5fefc76948f50b94d5f8e71d53b964ce5b158e182f4f251ab320"
+      },
+      {
+        "specificationType": "security_specification",
+        "id": "ac8ed859-518d-4b82-b2b8-02637b193043",
+        "version": 1,
+        "checksumSha256": "97e80f1719ace35f143bf2bb0698807c3d0ef72af06d0bf0a1d3cd23f07d6db5"
+      }
+    ],
+    "note": "Scaffold is implementation structure + contracts + eval hooks. It is not a deployed system and not a code sample dump."
+  },
+  "schemaVersion": 1,
+  "commands": {
+    "bootstrap": "node workspace/check.mjs bootstrap",
+    "start": "node workspace/check.mjs start",
+    "health": "node workspace/check.mjs health",
+    "skeleton": "node app/skeleton.mjs"
+  },
+  "environment": {
+    "secretPlaceholders": [
+      "secret_refs.provider_api_key_ref",
+      "secret_refs.embedding_api_key_ref",
+      "secret_refs.vector_store_credential_ref"
+    ],
+    "note": "Set these to vault references. Do not put secret values in the workspace."
+  }
+}
